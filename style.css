@@ -10,9 +10,9 @@ p{
 }
 .diet{
     display: flex;
+    padding-bottom: 80px;
 }
 .left{
-    width: 100%;
     padding-top: 152px;
 }
 .left .first-heading{
@@ -49,7 +49,6 @@ p{
 }
 .hero{
     margin: 0 auto;
-    width: 100%;
     background-image: url("images/shapes/Group\ 8450.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -58,4 +57,46 @@ p{
 .hero img{
     padding-left: 179px;
     padding-bottom: 17px;
+}
+.about{
+    display: flex;
+    padding: 80px 80px;
+    height: 527px;
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.girl{
+    width: 50%;
+    text-align: center;
+}
+.girl img{
+    width: 300px;
+    height: 607px;
+}
+.me{
+    width: 50%;
+}
+.me h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #575757;
+    padding-top: 70px;
+}
+.me p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.me button{
+    margin-top: 50px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #ffff;
+    background-image: linear-gradient(to right, #f5af19, #f12711); 
 }
