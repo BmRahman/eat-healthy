@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Roboto Mono;
+}
+p{
+    font-family: Raleway;
+}
+.diet{
+    display: flex;
+}
+.left{
+    width: 100%;
+    padding-top: 152px;
+}
+.left .first-heading{
+    font-size: 60px;
+    padding-left: 270px;
+    margin-top: -36px;
+    color: #575757;
+}
+.left .imagine{
+    margin-left: 270px;
+    margin-top: 30px;
+    font-size: 27px;
+}
+.left button{
+    margin-left: 270px;
+    margin-top: 30px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #ffff;
+    background-image: linear-gradient(to right, #f5af19, #f12711);
+}
+.first-heading .yel{
+    color: #FB934A;
+}
+.healthy{
+    width: 50%;
+}
+.muscle{
+  width: 50%;  
+}
+.hero{
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("images/shapes/Group\ 8450.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.hero img{
+    padding-left: 179px;
+    padding-bottom: 17px;
+}
