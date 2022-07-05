@@ -100,3 +100,18 @@ p{
     color: #ffff;
     background-image: linear-gradient(to right, #f5af19, #f12711); 
 }
+.recipie{
+    padding: 80px 80px;
+}
+.text{
+    text-align: center;
+}
+.text h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #575757; 
+}
+.text p{
+    font-size: 18px;
+    padding-top: 30px;
+}
